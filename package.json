@@ -1,0 +1,32 @@
+{
+  "name": "bsms",
+  "version": "1.0.0",
+  "description": "Lightweight NPM package for sending bulk sms for any bulk sms API online within JavaScript frontend and as well as backend, works as universal module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appdets/bsms.git"
+  },
+  "keywords": [
+    "bsms",
+    "bulksms",
+    "bulk sms",
+    "bulk",
+    "sms",
+    "otp",
+    "api",
+    "short message"
+  ],
+  "author": "iamjafran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/appdets/bsms/issues"
+  },
+  "homepage": "https://github.com/appdets/bsms.git#readme",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
