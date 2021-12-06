@@ -88,7 +88,7 @@ const options = {
 ```
 
 ### Advanced usages
-**Notes**
+ 
 
 * Supports nested methods
 * Supports dynamic arguments as numbers
@@ -98,6 +98,9 @@ const options = {
 SMS
 .number("number1", "number2", ...numbers) // dynamic arg
 // .number(["number1", "number2", ...numbers]) // as array
+// .number("number1") // as nesting
+// .number("number2") // as nesting
+// .number("number3") // as nesting
 .message("Hello world") 
 .send() // auto assign POST method if numbers are more than 20, default: GET
 // .get() // GET method
